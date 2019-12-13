@@ -1,0 +1,36 @@
+<section>
+	<div class="container-fluid">
+		<div class="row">
+	        <div class="col-md-4 col-md-offset-4" style="margin-top:150px">
+	            <div class="login-panel panel panel-default" >
+	                <div class="panel-heading">
+	                    <h3 class="panel-title" style="text-align: center;">用户权限管理系统</h3>
+	                </div>
+	                <div class="panel-body">
+	                    <form role="form" action="#" method="post" id="login_form">
+	                        <fieldset>
+	                            <div class="form-group">
+	                                <input class="form-control" placeholder="userName" name="userName" autofocus>
+	                            </div>
+	                            <div class="form-group">
+	                                <input class="form-control" placeholder="password" name="password" type="password" value="">
+	                            </div>
+	                             <div class="form-group row">
+	                             <input class="form-control input-val" type="text" value="" placeholder="请输入验证码（不区分大小写）" 
+	                                	style="float:left; width:70%; margin-left:15px;">
+            						<canvas id="canvas" width="100" height="36" style="float:right;"></canvas>
+	                            </div>
+	                             <div class="form-group row">
+		                            <a href="javascript:void(0)" class="btn btn-lg btn-success btn-block form-control" id='loginButton'>Login</a>
+		                            <input type="checkbox" lay-filter="filter" name="rememberMe" style="margin-left:15px;"
+		                            	id="rememberMe" lay-skin="primary" title="30天内自动登录" >30天内自动登录
+		                            <div style="float:right;margin-right:15px;"><a href="/account/register">Register</a></div>
+	                            </div>
+	                        </fieldset>
+	                    </form>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+</section>
